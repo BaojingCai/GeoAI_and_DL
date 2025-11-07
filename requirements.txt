@@ -1,0 +1,10 @@
+# basic libraries
+# python version 3.11.3
+
+numpy
+pandas
+geopandas
+rasterio
+matplotlib
+jupyter
+ipykernel
