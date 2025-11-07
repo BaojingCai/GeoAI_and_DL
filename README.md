@@ -10,11 +10,11 @@
 ```bash
 python -m venv venv
 ```
-### activation with PowerShell
+### Activation with PowerShell
 ```bash
 venv/bin/activate
 ```
-### install packages
+### Install packages
 ```bash
 pip install -r requirements.txt
 ```
@@ -23,7 +23,7 @@ or
 pip install -r requirements.txt -v
 ```
 
-### code organization with branches
+### Code organization with branches
 
 * `main` for stable code and merging from dev
 * `dev`  for development and merging from testing branches
