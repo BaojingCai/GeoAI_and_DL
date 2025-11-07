@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw UAV data
+data/raw/*
+# Keep raw folder in repo
+!data/raw/.gitkeep
+!data/patches/.gitkeep
