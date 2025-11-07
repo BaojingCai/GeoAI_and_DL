@@ -22,3 +22,9 @@ or
 ```bash
 pip install -r requirements.txt -v
 ```
+
+### code organization with branches
+
+* `main` for stable code and merging from dev
+* `dev`  for development and merging from testing branches
+* `testing` for own testing
