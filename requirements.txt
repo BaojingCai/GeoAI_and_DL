@@ -8,3 +8,4 @@ rasterio
 matplotlib
 jupyter
 ipykernel
+ultralytics
