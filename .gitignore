@@ -15,3 +15,6 @@ data/raw/*
 
 # patches
 data/
+
+# yolov6 training file
+yolov6_training.ipynb
