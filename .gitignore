@@ -12,6 +12,6 @@ venv/
 
 # Raw UAV data
 data/raw/*
-# Keep raw folder in repo
-!data/raw/.gitkeep
-!data/patches/.gitkeep
+
+# patches
+data/
