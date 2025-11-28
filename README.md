@@ -31,4 +31,8 @@ pip install -r requirements.txt -v
 * `dev`  for development and merging from testing branches
 * `testing` for own testing
 
+### Workflow
+
+![Workflow](illustrations/Workflow_DL_daressalam.drawio.png)
+
 
