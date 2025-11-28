@@ -1,7 +1,7 @@
 task: classify
 mode: train
 model: weights\yolov8n-cls.pt
-data: ..\data\images_augmented
+data: ..\data\images_classified
 epochs: 50
 time: null
 patience: 20
