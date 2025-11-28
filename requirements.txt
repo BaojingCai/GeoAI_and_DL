@@ -1,11 +1,11 @@
 # basic libraries
 # python version 3.11.3
 
-numpy
+ultralytics
 pandas
 geopandas
 rasterio
 matplotlib
 jupyter
 ipykernel
-ultralytics
+tqdm
