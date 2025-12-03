@@ -3,10 +3,10 @@
 
 * input data downloaded from https://gigamove.rwth-aachen.de/de/download/1c33dae908eb51ad17b224e27c63e1c0
 
-*  input data stored in folder data/raw Mbezi_With_Kiporo_ycbr.tif, Mlalakua_Merged_PPK_ycbr.tif and Msimbazi_Merged_ycbr.tif
+*  input data stored in folder data/raw Mbezi_With_Kiporo_ycbr.tif, Mlalakua_Merged_PPK_ycbr.tif, and Msimbazi_Merged_ycbr.tif
 (only stored locally, because datasets are too large)
 
-* the grid for patch creation is dowloadable under this link and was created with QGIS: https://heibox.uni-heidelberg.de/f/0d18484e9b224e77acc5/ <br>locally stored under data/grid/grid_daressalam_5m.gpkg
+* The grid for patch creation is downloadable under this link and was created with QGIS: https://heibox.uni-heidelberg.de/f/0d18484e9b224e77acc5/ <br>locally stored under data/grid/grid_daressalam_5m.gpkg
 
 ### Creation of virtual environment
 ```bash
