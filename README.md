@@ -1,12 +1,13 @@
 # GeoAI_and_DL
 ### GeoAI and Deep Learning Seminar
 
-* input data downloaded from https://gigamove.rwth-aachen.de/de/download/1c33dae908eb51ad17b224e27c63e1c0
+* input data is downloadable under https://heibox.uni-heidelberg.de/d/056a33f61b324da68181/
 
-*  input data stored in folder data/raw Mbezi_With_Kiporo_ycbr.tif, Mlalakua_Merged_PPK_ycbr.tif and Msimbazi_Merged_ycbr.tif
-(only stored locally, because datasets are too large)
+*  input data stored in folder (only stored locally and not on github, because datasets are too large)<br>
+locally stored under data/raw/
 
-* the grid for patch creation is dowloadable under this link and was created with QGIS: https://heibox.uni-heidelberg.de/f/0d18484e9b224e77acc5/ <br>locally stored under data/grid/grid_daressalam_5m.gpkg
+
+* the grid for patch creation was created with QGIS: <br>locally stored under data/grid/
 
 ### Creation of virtual environment
 ```bash
@@ -19,10 +20,6 @@ venv/Scripts/activate
 ### Install packages
 ```bash
 pip install -r requirements.txt
-```
-or
-```bash
-pip install -r requirements.txt -v
 ```
 
 ### Code organization with branches
