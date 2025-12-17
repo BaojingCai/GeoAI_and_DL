@@ -6,7 +6,7 @@ __pycache__/
 
 # Virtual environment
 venv/
-deeplearning/
+venv_testing/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -17,5 +17,7 @@ data/raw/*
 # patches
 data/
 
-# yolov6 training file
+# other files
 yolov6_training.ipynb
+
+overview.py
