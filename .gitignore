@@ -17,7 +17,10 @@ data/raw/*
 # patches
 data/
 
+# too large
+results/classification_maps/Msimbazi_Merged_ycbr_classified.gpkg
+
 # other files
 yolov6_training.ipynb
-
 overview.py
+
