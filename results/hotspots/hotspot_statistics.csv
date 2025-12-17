@@ -1,0 +1,9 @@
+Metric,Value
+Number of Grid Cells,567.0
+Cells with Buildings,527.0
+Cells without Buildings,40.0
+Number of Hotspots,72.0
+Building Density Threshold (75% Quantile),66.5
+Greenery Threshold (25% Quantile),4.536489151873767
+Max Building Density,340.0
+Mean Greenery (%),19.004626285885504
