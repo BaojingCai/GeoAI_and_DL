@@ -30,6 +30,6 @@ pip install -r requirements.txt
 
 ### Workflow
 
-![Workflow](illustrations/Workflow_DL_daressalam.drawio.png)
+![Workflow](illustrations/workflow.drawio.png)
 
 
