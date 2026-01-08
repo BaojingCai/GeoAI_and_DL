@@ -60,6 +60,5 @@ locally stored under data/raw/
 
 ![results](results/hotspots/hotspot_analysis.png)
 
-## References
 
 
