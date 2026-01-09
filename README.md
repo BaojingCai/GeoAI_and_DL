@@ -1,10 +1,11 @@
-# Quantifying Urban Greenery in Dar es Salaam Using YOLO11 and UAV imagery
+# Quantifying Urban Greenery Using YOLO11 and UAV imagery
+## Urban greenery correlated negatively with building density in Dar Es Salaam, Tanzania
 
-* This project contains an deep learning approach for the detection of urban "healthy greenery". The model is based on the YOLO11 classification model `yolo11n-cls.pt`, which is pretrained on ImageNet and additionally trained with image patches from drone footage of Dar es Salaam. In this repo three notebooks, environment and datasets are provided, as needed to run the code itself.
+* This project contains an deep learning approach for the detection of urban visually green vegetation. We use the YOLO11 classification model `yolo11n-cls.pt`, which is pretrained on ImageNet and additionally finetuned with image patches from UAV footage of Dar es Salaam. In this repo three notebooks, environment and datasets are provided, as needed to run the code itself.
 
 ## Motivation and General Information
 
-* Urban green spaces play a vital role in rapidly growing cities with numerous slums, such as Dar es Salaam, Tanzania. "Healthy Greenery" helps to improve air quality and lower temperatures in hot regions. While manual mapping is inefficient and time-consuming, a deep learning process can help automate the process and efficiently monitor greenery development. This can be helpful for sustainable urban development.
+* Urban green spaces play a vital role in rapidly growing cities, such as Dar es Salaam, Tanzania. Greenery helps to improve air quality and lower temperatures in hot regions. While manual mapping is inefficient and time-consuming, a deep learning process can help automate the process and efficiently monitor greenery development. This can be helpful for sustainable urban development. Furthermore, the classification results were subsequently combined with building density data to identify hotspots characterized by high building density and low green space. The study shows that combining a simple classification with spatial indicators such as building density can reveal structural patterns and dependencies between building density and greenery that are not visible through imagery alone.
 
 * This model is trained to detect only truly green greenery. Brown meadows, for example, are therefore not detected. This simplified approach of distinguishing between greenery and non-greenery ensures a high accuracy of over 95%. For more complex analyses, the model would need to be adapted with an additional class, such as semi-green areas.
 
@@ -60,5 +61,5 @@ locally stored under data/raw/
 
 ![results](results/hotspots/hotspot_analysis.png)
 
-
+![results](results/hotspots/correlation_scatter_loess.png)
 
